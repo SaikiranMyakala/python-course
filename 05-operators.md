@@ -161,4 +161,11 @@ distance_miles = distance_km * conversion_ratio
 
 print(distance_miles) # 350.7639295
 
+distance = int(input("enter the number in kilometers "))
+
+convert_to_miles = 0.621371
+
+KM_to_Miles = (distance*convert_to_miles)
+
+print("The converted distacne in miles is ", KM_to_Miles)
 ```
